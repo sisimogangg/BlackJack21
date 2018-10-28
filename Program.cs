@@ -54,7 +54,7 @@ namespace blackjack21
             };
 
             Console.WriteLine("Dealer's Points = {0}", Dealer.CalculatePoints());
-            Console.WriteLine("============================");
+            Console.WriteLine("==========================");
             
             Console.WriteLine(String.Format("0 - Billy's Points = {0}   | {1}", Billy.CalculatePoints(), WhoWon(Dealer, Billy)));
             Console.WriteLine(String.Format("1 - Lemmy's Points = {0}   | {1}", Lemmy.CalculatePoints(), WhoWon(Dealer, Lemmy)));
